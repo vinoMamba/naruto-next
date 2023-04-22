@@ -5,7 +5,7 @@ import { Notice } from "./Notice"
 export const TopNav = () => {
   return (
     <header
-      className="position-sticky top-0 box-b backdrop-blur-24"
+      className="position-sticky top-0 box-b backdrop-blur-24 z-1000"
     >
       <div className="w[1248px] my-0 m-auto px-24">
         <nav className="h[64px] relative flex items-center justify-between">
